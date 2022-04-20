@@ -51,12 +51,11 @@ public class LinkedStack<T> implements Stack<T> {
         if (element == null) {
             throw new NullPointerException();
         }
-        Node<T> objectNode = new Node<>(element);
+        Node<T> newNode = new Node<>(element);
         if (head != null) {
-            objectNode.next = head;
-            head = objectNode;
+            newNode.next = head;
         }
-        head = objectNode;
+        head = newNode;
         size++;
     }
 
