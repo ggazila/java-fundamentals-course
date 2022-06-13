@@ -1,10 +1,10 @@
 package com.bobocode.fp;
 
-import com.bobocode.fp.exception.InvalidFunctionNameException;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
+
+import com.bobocode.fp.exception.InvalidFunctionNameException;
 
 /**
  * {@link FunctionMap} is an API that allows you to store and retrieve functions by string name. {@link FunctionMap}
@@ -13,7 +13,7 @@ import java.util.function.Function;
  * @author Taras Boychuk
  */
 public class FunctionMap<T, R> {
-    private Map<String, Function<T, R>> functionMap;
+    private final Map<String, Function<T, R>> functionMap;
 
     FunctionMap() {
         functionMap = new HashMap<>();
