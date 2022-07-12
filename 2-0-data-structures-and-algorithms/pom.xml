@@ -11,20 +11,17 @@
         <module>2-2-4-linked-list</module>
         <module>2-2-5-array-list</module>
         <module>2-2-6-binary-search-tree</module>
+        <module>2-2-7-hash-table</module>
         <module>data-structures-and-algorithms-util</module>
     </modules>
 
     <parent>
         <groupId>com.bobocode</groupId>
-        <artifactId>java-fundamentals-course</artifactId>
+        <artifactId>java-fundamentals-exercises</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>2-0-data-structures-and-algorithms</artifactId>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.source>11</maven.compiler.source>
-    </properties>
 
     <dependencies>
         <dependency>
